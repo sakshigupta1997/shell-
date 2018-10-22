@@ -3,7 +3,7 @@ read n
 
 y=1
 while [ $n -gt 0 ]
-do
+do     
 y=` expr $n \* $y `
 n=`expr $n - 1 `
 done    
