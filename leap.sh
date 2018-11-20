@@ -7,7 +7,7 @@ else
  if [ `expr $year % 100` -eq 0 ]
   then
   echo "Not leap year"
- else
+ else  
  if [ `expr $year % 4` -eq 0 ]
   then
   echo "leap year"
